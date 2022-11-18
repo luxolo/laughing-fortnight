@@ -10,6 +10,6 @@ variable "tags" {
   default = ["test"]
 }
 
-variable "subnetwork" {
+variable "network" {
   default = ""
 }

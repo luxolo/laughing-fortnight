@@ -1,5 +1,6 @@
 # Create a single Compute Engine instance
 resource "google_compute_instance" "default" {
+
   name         = var.name
   machine_type = "e2-micro"
   zone         = var.zone
@@ -11,8 +12,10 @@ resource "google_compute_instance" "default" {
     }
   }
   network_interface {
-    subnetwork = var.subnetwork
+    network = var.network
   }
 
   metadata_startup_script = "../scripts/startup_script.sh"
 }
+
+
