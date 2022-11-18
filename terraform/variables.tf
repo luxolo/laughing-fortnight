@@ -7,24 +7,10 @@ variable region {
 }
 
 variable domains {
-    default = ["domain1", "domain2", "domain3"]
+    default = ["domain1"]
 }
 
 variable test-network {
     default = "terraform-network"
 }
 
-variable vms {
-    default = [
-        {
-            name = "vm1",
-            network = "domain1",
-            tags = ["prvi", "http"]
-        },
-        {
-            name = "vm2",
-            network = "domain3",
-            tags = ["drugi", "http"]
-        }
-    ]
-}
