@@ -6,5 +6,5 @@ module "internal_VM" {
   name = each.key
   zone = var.gcp_zone
   tags = each.value.tags
-  network = var.project_subnet_id
+  network = var.project_subnet_self_link
 }

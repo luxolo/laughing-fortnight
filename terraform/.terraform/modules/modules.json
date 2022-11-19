@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"network","Source":"./modules/network","Dir":"modules/network"},{"Key":"internal_VM","Source":"./modules/internal_VM","Dir":"modules/internal_VM"},{"Key":"","Source":"","Dir":"."}]}
+{"Modules":[{"Key":"internal_VM","Source":"./modules/internal_VM","Dir":"modules/internal_VM"},{"Key":"","Source":"","Dir":"."},{"Key":"directories","Source":"./modules/directories","Dir":"modules/directories"},{"Key":"network","Source":"./modules/network","Dir":"modules/network"}]}

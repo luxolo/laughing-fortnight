@@ -4,6 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+**/domain*
 
 # Crash log files
 crash.log

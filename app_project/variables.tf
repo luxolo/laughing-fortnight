@@ -1,4 +1,4 @@
-variable vms {
+variable "vms" {
     default = [
         {
             name = "vm1",
@@ -11,6 +11,8 @@ variable vms {
     ]
 }
 
-variable gcp_zone {}
-variable gcp_region {}
-variable project_subnet_id {}
+variable "gcp_zone" {}
+variable "gcp_region" {}
+variable "project_id" {}
+variable "project_name" {}
+variable "project_subnet_self_link" {}
